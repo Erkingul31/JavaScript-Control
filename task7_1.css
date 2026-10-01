@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#taskList {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#taskList li {
+    margin-bottom: 10px;
+}
